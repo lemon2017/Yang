@@ -1,35 +1,26 @@
-# Permalinks
-permalink:           pretty
+title: Yang Chen
+description: My Personal Blog
+author: Yang Chen
+logo: http://i1.piimg.com/567571/9369bb15927c6894.png
+github: https://lemon2017.github.io/LemoNade
+about: Freelance developer
 
-# Setup
-title:               Progress
-tagline:             A responsive blog theme that illustrates reading progress. Suited for continous reading.
-url:                 http://alexanderussell.github.io
-baseurl:             /progress-for-jekyll
-analytics_id:
+baseurl: "https://lemon2017.github.io/LemoNade"
+url: "https://lemon2017.github.io/LemoNade"
 
-# Owner/author information
-owner:
-  name:           Alex Russell
-  avatar:         avatar.png
-  bio:            "Designer."
-  email:          alex@collectivelymade.com
-  twitter:        alexanderussell
-  github:         alexanderussell
-  instagram:      alexanderussell
-  dribbble:       alexanderussell
-  location:       "Lincoln, NE"
+disqus_shortname: aboutashu
+google_analytics: UA-72862926-1
+
+share:
+  twitter_username: \#
+  fb_appid: 000000000000
 
 
-# Custom vars
-version:             2.0.0
-github:
-  repo:              
+enableTags: true
+tagarray: []
 
-# Pagination
-paginate: 5
-paginate_path: "blog/page:num"
-
-# Gems
-gems:
-  - jekyll-paginate
+paginate: 20
+per_page: 20
+paginate_path: "/page:num/"
+markdown: kramdown
+gems: [jekyll-paginate, jekyll-gist]
