@@ -23,6 +23,7 @@ highlighter: Pygments
 # Build settings
 markdown: kramdown
 
+<<<<<<< HEAD
 FB:
   comments :
     provider : duoshuo
@@ -35,3 +36,8 @@ FB:
     #   num_posts: 5
     #   width: 580
     #   colorscheme: light
+=======
+gems: [jekyll-seo-tag, jekyll-paginate]
+
+theme: jekyll-theme-minimal
+>>>>>>> origin/master
