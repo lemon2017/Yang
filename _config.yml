@@ -1,26 +1,40 @@
-title: Yang
-description: My Personal Blog
-author: Yang
-logo: http://i1.piimg.com/567571/d96cbfd31ef4efd1.png
-github: https://lemon2017.github.io/LemoNade
-about: Freelance developer
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
-baseurl: "https://lemon2017.github.io/LemoNade"
-url: "https://lemon2017.github.io/LemoNade"
-
-disqus_shortname: aboutashu
-google_analytics: UA-72862926-1
-
-share:
-  twitter_username: \#
-  fb_appid: 000000000000
-
-
-enableTags: true
-tagarray: []
-
-paginate: 20
-per_page: 20
-paginate_path: "/page:num/"
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: pygments
 markdown: kramdown
-gems: [jekyll-paginate, jekyll-gist]
+disqus: dbyll
+google_analytics: dbyll
+title: dbyll
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: dbyll
+
+description: Stylish Jekyll Theme
+author:
+  name: dbyll
+  email: dbyll@ismaildemirbilek.com
+  github: dbtek
+  twitter: dbtek
+  pinterest: asd123
+  linkedin: asd123
+  bio: Your stylish, minimalist theme!
+  email_md5: 726351295ec82e145928582f595aa3aa
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+# set it as url of an image
+# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+
+BASE_PATH:
+
+gems:
+  - jekyll-paginate
